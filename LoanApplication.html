@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div>
+	<form>
+		<div class="main" id="heading">
+			<h2>Loan Application Form</h2>
+		</div>
+		<div class="main">
+			<div class="heading_1">Applicant's Personal information</div>
+			<div>
+				<label>Full Name:</label>
+				<input  type="text" name="" id="full_name">
+				<span id="loi_full_name"></span>
+			</div>
+			<div>
+				<label>Date of Birth(MM/dd/yy):</label>
+				<input type="date" name="" id="dob" >
+				<span id="loi_dob"></span>
+			</div>
+			<div>
+				<label>Phone Number:</label>
+				<input type="number" name="" id="phone_number">
+				<span id="loi_phone_number"></span>
+			</div>
+			<div>
+				<label>Address:</label>
+				<input type="text" name="" id="address">
+				<span id="loi_address"></span>
+			</div>
+			<div>
+				<label>ZIP code:</label>
+				<input type="text" name="" id="zip_code" onkeydown="zipcodeFormatter()" placeholder="xxx-xxxx-xxx">
+				<span id="loi_zip_code"></span>
+			</div>
+		</div>
+		<div class="main">
+			<div class="heading_1">Applicant's Employment information</div>
+			<div>
+				<label>Current Employer:</label>
+				<input type="text" name="">
+			</div>
+			<div>
+				<label>Employer Address:</label>
+				<input type="number" name="">
+			</div>
+			<div>
+				<label>Date of Joining(MM/dd/yyyy):</label>
+				<input type="date" name="">
+			</div>
+			<div>
+				<label>Phone Number:</label>
+				<input type="text" name="">
+			</div>
+			<div>
+				<label>Email ID:</label>
+				<input type="email" name="">
+			</div>
+			<div>
+				<label>Fax:</label>
+				<input type="text" name="">
+			</div>
+			<div>
+				<label>Designation:</label>
+				<input type="text" name="">
+			</div>
+			<div>
+				<label>Annual Income($):</label>
+				<input type="text" name="">
+			</div>
+			
+		</div>
+		<div class="main">
+			<div class="heading_1">Loan Information</div>
+			<div>
+				<label>Loan Type:</label>
+				<select>
+					<option>---Select---</option>
+					<option>Personal Loan</option>
+					<option>Home Loan</option>
+					<option>Vehicle Loan</option>
+					<option>Business Loan</option>
+					<option>Education Loan</option>
+				</select>
+			</div>
+			<div>
+				<label>Interest(%):</label>
+				<input type="text" name="">
+			</div>
+			<div>
+				<label>Period(Months):</label>
+				<input type="number" name="">
+			</div>
+			<div>
+				<label>Interest(%):</label>
+				<input type="text" name="">
+			</div>
+			<div id="nut_bam">
+				<button onclick="return kiem_tra()">Submit</button>
+				<button type="reset">Reset</button>
+			</div>
+		</div>
+	</form>
+</div>
+<script type="text/javascript" src="scrip.js">
+	
+</script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+body{
+	width: 1000px;
+}
+.main{
+	background-color: lightpink;
+	margin: 20px;
+	border: solid 1px gray;
+}
+#heading{
+	height: 60px;
+	display: flex;
+	}
+.main input , label, select{
+	margin:  3px;
+	margin-left: 40px;
+}
+#nut_bam{
+	margin-left: 30%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.main select{
+	width: 100px;
+	text-align: center;
+}
+.main button{
+	margin-left: 10px;
+}
+.main label{
+	width: 200px;
+	float: left;	
+}
+.main input{
+	width: 400px;
+}
+.heading_1{
+	font-weight: bold;
+	color: #2a49a3
+;
+	font-size: 20px;
+}
